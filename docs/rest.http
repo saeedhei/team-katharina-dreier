@@ -1,0 +1,15 @@
+@baseUrl = http://localhost:3000
+
+### Get all users
+GET {{baseUrl}}/api/users
+Accept: application/json
+
+###
+
+### Create a new user
+POST {{baseUrl}}/api/users
+Content-Type: application/json
+
+{
+  "name": "Albert"
+}
